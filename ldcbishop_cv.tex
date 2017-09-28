@@ -1,0 +1,328 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cies Resume/CV
+% LaTeX Template
+% Version 1.1 (20/7/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Cies Breijs (cies@kde.nl)
+% https://github.com/cies/resume with extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,a4paper]{article} % Font size (10-12pt) and paper size (a4paper, letterpaper, legalpaper, etc)
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\include{structure} % Include structure.tex which contains packages and document layout definitions
+
+\hyphenation{Somelongword} % Specify custom hyphenation points in words with dashes where you would like hyphenation to occur, or alternatively, don't put any dashes in a word to stop hyphenation altogether
+%\fancyfoot[C]{\thepage}
+%\pagestyle{fancy}
+\pagestyle{plain}
+\begin{document} 
+\thispagestyle{empty}
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\maintitle{Logan D.C. Bishop}{}  % Your name and date of birth or subtitle
+
+\noindent\href{mailto:ldcbishop@gmail.com}{}% Your email address
+\textsmaller{Cell: (806) 881-3117\bull Email: ldcbishop@gmail.com\bull Github: ldcbishop}
+\href{}{}\\ % Your URL
+\textsmaller{2601 Gramercy Street, Apt 2402 \bull Houston, TX 77030} % Your address
+
+\spacedhrule{0.9em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	SUMMARY SECTION
+%----------------------------------------------------------------------------------------
+
+%\roottitle{Summary} % Root section title
+%
+%\vspace{-1.3em} % Reduce whitespace after the Summary heading and the two-column content
+%
+%\begin{multicols}{2}  % Start a two-column layout
+%\noindent \textit{Statement of Purpose and Future Goals}\\\\
+%Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis scelerisque vestibulum. Sed ut sapien et dui mollis condimentum. Phasellus enim lectus, dignissim vitae velit sit amet, porttitor tincidunt lectus. Vivamus adipiscing volutpat lacinia. Sed dui ipsum, iaculis id facilisis sed, dapibus quis lacus. Quisque blandit hendrerit malesuada. Nunc sollicitudin nisl nunc, vitae luctus leo tincidunt vel.
+%
+%Pellentesque bibendum convallis adipiscing. Suspendisse facilisis id massa a lacinia. Nullam odio nibh, placerat at fermentum in, tincidunt eu ipsum. Nullam adipiscing lacus id dui suscipit commodo. Vestibulum iaculis leo imperdiet, porta lorem eu, tempus tortor. Donec interdum risus ullamcorper, vestibulum nulla ut, tincidunt ante. Duis adipiscing auctor nisi, quis tempor tortor ornare aliquet. Aenean at tempor leo. Nam eleifend venenatis elit id aliquet. Mauris quis lacinia dolor, a posuere tellus. Suspendisse nec augue pretium, condimentum risus vitae, dignissim tellus. Proin gravida ante eget massa lacinia consequat. Integer pharetra vel ligula sed vulputate. Integer eget erat quam. Proin adipiscing lorem ac purus adipiscing, non ullamcorper nisi porttitor. 
+%\end{multicols}
+%
+%\spacedhrule{0.5em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\roottitle{Research Experience} % Top level section
+
+\headedsection
+{{Welch Summer Scholar}}
+{\textsc{University of Texas at Dallas}}{
+
+\headedsubsection
+{PI: Kenneth Balkus}
+{Jun 2010}
+{\bodytext{Participated in the Welch Summer Scholar program during the Summer bridging junior and senior years of high school.  Primary investigation was the synthetic protocol of making indium bearing zeolite-like metal organic frameworks.}}
+}
+%------------------------------------------------
+
+\headedsection 
+{{ Summer Fellow}}
+{\textsc{University of Texas at Austin}}{ 
+
+\headedsubsection 
+{PI: Keith Stevenson}
+{Jun 2012}
+{\bodytext{Investigated synthetic methods to produce gold nanoparticles <10nm using dendrimers as a templating ligand. }}
+}
+%------------------------------------------------
+
+\headedsection % Stevenson lab group, stevenson@cm.utexas.edu
+{\href{}{Undergraduate Researcher}}
+{\textsc{University of Texas at Austin}} {
+
+\headedsubsection % Job title entry for the current employer
+{PI: Keith Stevenson}
+{Jun 2013 -- Jun 2014}
+{\bodytext{Worked with Dr. Anthony Dylla on the synthesis and analysis of sodium titanates as a possible sodium ion battery cathode.}}
+}
+\headedsection
+{{Arnold and Mabel Beckman Fellow}}
+{\textsc{University of Texas at Austin}} {
+\headedsubsection % Job title entry for the current employer
+{PI: Keith Stevenson}
+{Jun 2014 -- Jun 2015}
+{\bodytext{Investigated the solvation properties of Li$^+$ in fluorinated organic solvents using Raman spectroscopy and DFT calculations.}}
+}
+%------------------------------------------------
+
+\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{{Graduate Researcher}}
+{\textsc{William Marsh Rice University}} {
+
+\headedsubsection % Job title entry for the current employer
+{PI: Christy Landes}
+{Jun 2016 -- present}
+{\bodytext{Statistical analysis of protein-adsorption chromatography and applications of machine learning techinques to column design.}}
+}
+%------------------------------------------------
+
+%\begin{center}
+%\textit{Please refer to \href{http://www.linkedin.com/in/ciesbreijs}{my Linkedin profile} for the complete list of work experiences along with recommendations.}
+%\end{center}
+
+%------------------------------------------------
+
+\spacedhrule{-0.2em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\roottitle{Education} % Top level section
+
+\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{Bachelors of Science in Chemistry}
+{\textsc{Austin, Texas}} {
+
+%Overall GPA: 3.72
+%Chem GPA: 3.75
+%CS GPA: 3.68
+\headedsubsection %Add GPA here?
+{University of Texas at Austin}
+{2011 -- 2015}
+{\bodytext{Core curriculum centered on classical synthetic chemistry but specializations included a formal course on computational modeling of quantum systems as well as advanced numerical methods.}}}
+\headedsection
+{Bachelors of Science in Computer Science}
+{{Austin, Texas}}{
+\headedsubsection
+{University of Texas at Austin}
+{2011 -- 2015}
+{\bodytext{Mandated curriculum focused on full stack development but specializations included Machine Learning, Stochastic Algorithms, and Cryptography.}}
+}
+
+%------------------------------------------------
+
+\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{Graduate Student in Chemistry}
+{\textsc{Houston, Texas}} {
+
+\headedsubsection % Job title entry for the current employer
+{William Marsh Rice University}
+{2016 -- Present} 
+{\bodytext{Primary research involves investigating the motion of analyte molecules down a chromatographic column from a statistical perspective. The primary goal of the project seeks to establish theories grounded in physical chemistry to describe analyte elution with eventual applications to column optimization via machine learning.}}
+}
+\spacedhrule{1.6em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+%----------------------------------------------------------------------------------------
+%	FELLOWSHIPS, AWARDS, etc.
+%----------------------------------------------------------------------------------------
+
+\roottitle{Fellowships and Honors} % Top level section
+
+\headedsection{Fellowships}{}{
+\headedsubsection{NDSEG 2017 Program Alternate}{ASEE, }{2017}
+\headedsubsection{Atwell-Welch Fellowship}{Rice-Chem. Dept., }{2016}
+\headedsubsection{Arnold and Mabel Beckman Fellow}{Arnold and Mabel Beckman Foundation, }{2014}
+}
+
+\headedsection
+{Honors}{}{
+\headedsubsection{Outstanding Presentation: Electrochemistry}{Gulf Coast Undergraduate Research Symposium, }{2015}
+\headedsubsection{Hackerman Prize for Research}{University of Texas, }{2014}
+%Given by CNS
+\headedsubsection{National Instruments Endowed Scholarship for Excellence}{UT-College of Nat. Sci., }{2014}%http://endowments.giving.utexas.edu/page/national-instruments-schl-exc/3724/
+\headedsubsection{Pirrung Scholarship}{Texas Exes, }{2014}%Texas Exes: $647
+\headedsubsection{Maggie Dee Stell Endowed Scholarship}{UT-College of Nat. Sci., }{2014}
+\headedsubsection{Robert E. Boyer Scholarship}{UT-College of Nat. Sci., }{2013}
+%Given by Chem Department
+\headedsubsection{Friends of Chemistry Regents Endowed Scholarship}{UT-Chem. Dept., }{2013}
+%Deans Honor List: 2013, 2015
+\headedsubsection{Undergraduate Research Grant Recipient}{University of Texas, }{2013}
+\headedsubsection{James Patterson Book Award}{James Patterson Foundation, }{2011}
+\headedsubsection{Harrington Foundation Scholarship}{Lubbock Area Foundation, }{2011}
+}
+\spacedhrule{1.6em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	Publications and Presentations
+%----------------------------------------------------------------------------------------
+\roottitle{Publications and Presentations}
+\headedsection{Publications}{}{
+
+\headedsubsection{1. "Application of the Stochastic Model as a desciptor and route to chromatographic column design"}
+{}
+{\bodytext{{\bf L.D.C. Bishop}, C.F. Landes, \textit{Accounts of Chemical Research}, {\bf 2017}, (In Preparation).}}
+% -------------------------------------
+
+\headedsubsection{2. "Enhancing Analystical Separations using Super-resolution Microscopy"}
+{}
+{\bodytext{N.A. Moringo, H. Shen, {\bf L.D.C. Bishop}, W. Wang, C.F. Landes, \textit{Annual Review of Physical Chemistry}, {\bf 2017}, (In Press).}}
+% -------------------------------------
+
+\headedsubsection{3. "The structure-energy landscape of NMDA Receptor Gating"}
+{}
+{\bodytext{D.M. Dolino, S. Chatterjee, D.M. MacLean, C. Flatebo, {\bf L.D.C. Bishop}, S.A. Shaikh, C.F. Landes, V. Jayaraman, \textit{Nature Chemical Biology}, {\bf 2017}, (In Press).}}
+% -------------------------------------
+
+\headedsubsection{4. "Single molecule spectroscopy uncovers variable protein transport dynamics on oxidatively functionalized polystyrene films"}
+{}
+{\bodytext{N.A. Moringo, H. Shen, L.J. Tauzin, W. Wang, {\bf L.D.C. Bishop}, Christy F. Landes, \textit{Langmuir}, {\bf2017} (Accepted).}}
+% -------------------------------------
+
+\headedsubsection{5. "Generalized recovery algorithm for 3D super-resolution microscopy using rotating point spread functions"}
+{}
+{\bodytext{B. Shuang, W. Wang, H. Shen, L.J. Tauzin, C. Flatebo, J. Chen, N.A. Moringo, {\bf L.D.C. Bishop}, K.F. Kelly, C.F. Landes, \textit{Scientific Reports}, {\bf2016}.}}
+% -------------------------------------
+
+\headedsubsection{6. "Effects of Solute---Solvent Hydrogen Bonding on Nonaqueous Electrolyte Structure"}
+{}
+{\bodytext{K.W. Schroder, A.G. Dylla, {\bf L.D.C. Bishop}, E.R. Kamilar, J. Saunders, L.J. Webb, and K.J. Stevenson, \textit{Journal of  Physical Chemistry Letters}, {\bf 2015}.}}
+% -------------------------------------
+
+}
+\headedsection{Presentations}{}{
+
+\headedsubsection{4. ``Theory of Elution in Chromatography"}
+{Summer 2017}
+{\bodytext{Oral Presentation, William Marsh Rice University - Small-Curley Institute Research Colloquiam\\
+ {\it Selected for John J. Fannaly Innovative Research Award}}}
+% -------------------------------------
+
+\headedsubsection{3. ``Solute-Solvent Hydrogen Bonding in Non-Aqueous Systems"}
+{Fall 2015}
+{\bodytext{Oral Presentation, Rice University - Gulf Coast Undergraduate Research Symposium\\
+ {\it Selected as Best Presentation in Electrochemistry}}}
+ % -------------------------------------
+
+\headedsubsection{2. ``Probing Solvent interactions through experiment and theory''}
+{Summer 2015}
+{\bodytext {Poster Presentation, UC Irvine - Arnold and Mabel Beckman Scholar Symposium}}
+% -------------------------------------
+
+\headedsubsection{1. ``Probing Solvent interactions through experiment and theory''}
+{Spring 2015}
+{\bodytext{Poster Presentation, University of Texas - Undergraduate Research Symposium}}
+% -------------------------------------
+}
+\spacedhrule{1.6em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+%----------------------------------------------------------------------------------------
+%	LEADERSHIP ROLES
+%----------------------------------------------------------------------------------------
+\roottitle{Service and Outreach}
+
+\headedsubsection{Rice University Committee on Research - Graduate Liaison}
+{Fall 2017 - Spring 2018}
+{\bodytext{Acted as a Graduate liaison for the Committee on Research who is charged with helping the Faculty Senate communicate issues with current research policies to the administration as well as interace with the Office of Reseach and Vice-Provost of Research.}}
+
+\headedsubsection{Rice University Committee for Teaching - Graduate Liaison}
+{Fall 2017 - Spring 2018}
+{\bodytext{Graduate liaison of the University level Committee for Teaching. The specific goal of the committee is to shape the teaching initiatives of the University through recognition of educators, review teaching grants, and advocate the improtance of teaching in tenure proceedings.}}
+
+\headedsubsection{CGSA - Graduate Student Association Representative}
+{Fall 2017 - Spring 2018}
+{\bodytext{Represented the Chemistry graduate student body as a voting member of the Rice Graduate Student Assoication (GSA)}}
+
+\headedsubsection{CRLA Certified Master Tutor - Sanger Learning Center}
+{Fall 2012 - Fall 2015}
+{\bodytext{Served as a tutor at the Sanger Learning Center of UT Austin specializing in Chemistry, Physics and Computer Science with >500 hours of individual and group tutoring to date.}}
+
+\headedsubsection{Undergraduate Assistant - Sanger Learning Center}
+{Fall 2013 - Fall 2015}
+{\bodytext{Designed and implemented new training regimen for incoming tutors as well as served as an after hours manager for tutorial services at the Sanger Learning Center.}}
+
+\headedsubsection{Corporate Relations Officer - Information Systems and Security Society}
+{Fall 2015}
+{\bodytext{Served as a primary contact and coordinator for companies interested in talking to and speaking with members of the Information and Systems Security group of UTCS.}}
+
+\headedsubsection{Alumni Coordinator - Phi Sigma Pi}
+{Fall 2013-Spring 2014}
+{\bodytext{Managed contacts with Phi Sigma Pi alumni as well as coordinated events for alumni in the Austin area.}}
+
+\spacedhrule{1.6em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL EXPERIENCE
+%----------------------------------------------------------------------------------------
+\roottitle{Professional Experience}
+\headedsubsection{Database Analyst and Software Dev - Sanger Learning Center}
+{Spring 2016}
+{\bodytext{I constructed a database that would allow the staff members of the Undergraduate studies department to quickly and effectively identify at-risk students in the student body.  Within this system, I also helped develop several analytical tools to assess the efficacy of the programs the Center offered.}}
+\spacedhrule{1.6em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+%----------------------------------------------------------------------------------------
+%	Professional Affiliation
+%----------------------------------------------------------------------------------------
+\roottitle{Professional Affiliation}
+\headedsubsection{Phi Sigma Pi Honor Fraternity}{Spring 2012 - Present}{}
+\headedsubsection{Phi Beta Kappa Alpha Chapter}{Fall 2015 - Present}{}
+\headedsubsection{Texas Exes}{Fall 2015 - Present}{}
+\headedsubsection{American Chemical Society}{Spring 2016 - Present}{}
+
+%\spacedhrule{1.6em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+% \roottitle{Skills}
+% \inlineheadsection % Special section that has an inline header with a 'hanging' paragraph
+% {Known Programming Languages:}
+% {C/C++, Python, SQL, Matlab, Mathematica, Fortran, LaTEX, Java, bash}
+% %------------------------------------------------
+
+% \inlineheadsection % Special section that has an inline header with a 'hanging' paragraph
+% {Familiar Software:}
+% {Microsoft Office Suite, VMware Workstation, MikTex, Igor Pro, GIMP, Blender, Adobe Illustrator, JuPyter}
+
+%------------------------------------------------
+
+\end{document}
