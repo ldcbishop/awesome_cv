@@ -20,15 +20,18 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[10pt,a4paper]{article} % Font size (10-12pt) and paper size (a4paper, letterpaper, legalpaper, etc)
-\usepackage{lastpage}
-\usepackage{fancyhdr}
-\include{structure} % Include structure.tex which contains packages and document layout definitions
+\documentclass[10pt,a4paper]{article}
 
-\hyphenation{Somelongword} % Specify custom hyphenation points in words with dashes where you would like hyphenation to occur, or alternatively, don't put any dashes in a word to stop hyphenation altogether
-%\fancyfoot[C]{\thepage}
-%\pagestyle{fancy}
-\pagestyle{plain}
+% Set the page margins.
+\usepackage[a4paper,margin=0.75in]{geometry}
+
+% Setup the language.
+\usepackage[english]{babel}
+\hyphenation{Some-long-word}
+
+% Makes resume-specific commands available.
+\usepackage{resume}
+
 \begin{document} 
 \thispagestyle{empty}
 %----------------------------------------------------------------------------------------
@@ -208,17 +211,17 @@
 
 \headedsubsection{5. "Enhancing Analystical Separations using Super-resolution Microscopy"}
 {}
-{\bodytext{N.A. Moringo, H. Shen, {\bf L.D.C. Bishop}, W. Wang, C.F. Landes, \textit{Annual Review of Physical Chemistry}, {\bf 2017}, (In Press).}}
+{\bodytext{N.A. Moringo, H. Shen, {\bf L.D.C. Bishop}, W. Wang, C.F. Landes, \textit{Annual Review of Physical Chemistry}, {\bf 2017}.}}
 % -------------------------------------
 
 \headedsubsection{4. "The structure-energy landscape of NMDA Receptor Gating"}
 {}
-{\bodytext{D.M. Dolino, S. Chatterjee, D.M. MacLean, C. Flatebo, {\bf L.D.C. Bishop}, S.A. Shaikh, C.F. Landes, V. Jayaraman, \textit{Nature Chemical Biology}, {\bf 2017}, (In Press).}}
+{\bodytext{D.M. Dolino, S. Chatterjee, D.M. MacLean, C. Flatebo, {\bf L.D.C. Bishop}, S.A. Shaikh, C.F. Landes, V. Jayaraman, \textit{Nature Chemical Biology}, {\bf 2017}.}}
 % -------------------------------------
 
 \headedsubsection{3. "Single molecule spectroscopy uncovers variable protein transport dynamics on oxidatively functionalized polystyrene films"}
 {}
-{\bodytext{N.A. Moringo, H. Shen, L.J. Tauzin, W. Wang, {\bf L.D.C. Bishop}, Christy F. Landes, \textit{Langmuir}, {\bf2017} (Accepted).}}
+{\bodytext{N.A. Moringo, H. Shen, L.J. Tauzin, W. Wang, {\bf L.D.C. Bishop}, Christy F. Landes, \textit{Langmuir}, {\bf2017}.}}
 % -------------------------------------
 
 \headedsubsection{2. "Generalized recovery algorithm for 3D super-resolution microscopy using rotating point spread functions"}
@@ -236,7 +239,7 @@
 
 \headedsubsection{4. ``Theory of Elution in Chromatography"}
 {Summer 2017}
-{\bodytext{Oral Presentation, William Marsh Rice University - Small-Curley Institute Research Colloquiam\\
+{\bodytext{Oral Presentation, William Marsh Rice University - Small-Curley Institute Research Colloquium\\
  {\it Selected for John J. Fannaly Innovative Research Award}}}
 % -------------------------------------
 
