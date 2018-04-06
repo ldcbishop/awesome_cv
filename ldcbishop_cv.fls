@@ -3,8 +3,8 @@ INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT ldcbishop_cv.tex
-OUTPUT ldcbishop_cv.log
+INPUT /home/ldcbishop/Dropbox/Application_Documents_Materials/CV and Resume Stuff/awesome_cv/ldcbishop_cv.tex
+OUTPUT /home/ldcbishop/Dropbox/Application_Documents_Materials/CV and Resume Stuff/awesome_cv/ldcbishop_cv.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
@@ -24,8 +24,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
 INPUT /usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
 INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-INPUT resume.sty
-INPUT resume.sty
+INPUT /home/ldcbishop/Dropbox/Application_Documents_Materials/CV and Resume Stuff/awesome_cv/resume.sty
+INPUT /home/ldcbishop/Dropbox/Application_Documents_Materials/CV and Resume Stuff/awesome_cv/resume.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/mdwtools/mdwlist.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/mdwtools/mdwlist.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
@@ -53,8 +53,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
-INPUT /usr/share/texmf/tex/latex/xcolor/xcolor.sty
-INPUT /usr/share/texmf/tex/latex/xcolor/xcolor.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
@@ -68,9 +68,9 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
-INPUT ldcbishop_cv.aux
-INPUT ldcbishop_cv.aux
-OUTPUT ldcbishop_cv.aux
+INPUT /home/ldcbishop/Dropbox/Application_Documents_Materials/CV and Resume Stuff/awesome_cv/ldcbishop_cv.aux
+INPUT /home/ldcbishop/Dropbox/Application_Documents_Materials/CV and Resume Stuff/awesome_cv/ldcbishop_cv.aux
+OUTPUT /home/ldcbishop/Dropbox/Application_Documents_Materials/CV and Resume Stuff/awesome_cv/ldcbishop_cv.aux
 INPUT /usr/share/texmf/tex/latex/tex-gyre/ot1qpl.fd
 INPUT /usr/share/texmf/tex/latex/tex-gyre/ot1qpl.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
@@ -79,14 +79,14 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-INPUT ldcbishop_cv.out
-INPUT ldcbishop_cv.out
-INPUT ldcbishop_cv.out
-INPUT ldcbishop_cv.out
-INPUT ./ldcbishop_cv.out
-INPUT ./ldcbishop_cv.out
-OUTPUT ldcbishop_cv.out
-OUTPUT ldcbishop_cv.pdf
+INPUT /home/ldcbishop/Dropbox/Application_Documents_Materials/CV and Resume Stuff/awesome_cv/ldcbishop_cv.out
+INPUT /home/ldcbishop/Dropbox/Application_Documents_Materials/CV and Resume Stuff/awesome_cv/ldcbishop_cv.out
+INPUT /home/ldcbishop/Dropbox/Application_Documents_Materials/CV and Resume Stuff/awesome_cv/ldcbishop_cv.out
+INPUT /home/ldcbishop/Dropbox/Application_Documents_Materials/CV and Resume Stuff/awesome_cv/ldcbishop_cv.out
+INPUT /home/ldcbishop/Dropbox/Application_Documents_Materials/CV and Resume Stuff/awesome_cv/ldcbishop_cv.out
+INPUT /home/ldcbishop/Dropbox/Application_Documents_Materials/CV and Resume Stuff/awesome_cv/ldcbishop_cv.out
+OUTPUT /home/ldcbishop/Dropbox/Application_Documents_Materials/CV and Resume Stuff/awesome_cv/ldcbishop_cv.out
+OUTPUT /home/ldcbishop/Dropbox/Application_Documents_Materials/CV and Resume Stuff/awesome_cv/ldcbishop_cv.pdf
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ppl.cfg
@@ -114,9 +114,9 @@ INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/rm-qplr.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/rm-qplr-sc.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/rm-qplb.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
-INPUT ldcbishop_cv.aux
-INPUT ./ldcbishop_cv.out
-INPUT ./ldcbishop_cv.out
+INPUT /home/ldcbishop/Dropbox/Application_Documents_Materials/CV and Resume Stuff/awesome_cv/ldcbishop_cv.aux
+INPUT /home/ldcbishop/Dropbox/Application_Documents_Materials/CV and Resume Stuff/awesome_cv/ldcbishop_cv.out
+INPUT /home/ldcbishop/Dropbox/Application_Documents_Materials/CV and Resume Stuff/awesome_cv/ldcbishop_cv.out
 INPUT /usr/share/texmf/fonts/enc/dvips/tex-gyre/q-rm.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/tex-gyre/q-rm-sc.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
