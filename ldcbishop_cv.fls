@@ -119,6 +119,8 @@ INPUT /home/ldcbishop/Dropbox/Application_Documents_Materials/CV and Resume Stuf
 INPUT /home/ldcbishop/Dropbox/Application_Documents_Materials/CV and Resume Stuff/awesome_cv/ldcbishop_cv.out
 INPUT /usr/share/texmf/fonts/enc/dvips/tex-gyre/q-rm.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/tex-gyre/q-rm-sc.enc
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/tex-gyre/qplb.pfb
